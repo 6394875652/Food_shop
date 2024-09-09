@@ -1,0 +1,10 @@
+.main{
+    
+    background-image: linear-gradient(to left top, rgb(176, 176, 238), rgb(240, 187, 96));
+    width: 100%;
+    overflow: hidden;
+}
+
+.content h2{
+    margin-bottom: 20px;
+}

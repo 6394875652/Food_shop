@@ -1,0 +1,48 @@
+.home{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-repeat: no-repeat;
+    background-image:url('./banner.jpeg') ;
+    background-size: cover;
+    flex-direction: column;
+}
+.headerContainer{
+    text-align: left;
+    margin-left: 50px;
+}
+.headerContainer h1{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.headerContainer p{
+    font-size: 40px;
+    margin-top: 15px;
+    padding: 0;
+    font-weight: lighter;
+    color: black;
+}
+.headerContainer button{
+    background-color: black;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.headerContainer button:hover{
+    background-image: linear-gradient(to left top, blue, red);
+    cursor: pointer;
+    transition: 0.3 ease-in;
+
+}
